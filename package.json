@@ -1,0 +1,19 @@
+{
+  "name": "black-knight-ts",
+  "version": "0.0.1",
+  "description": "A discord bot written in typescript",
+  "main": "main.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "node src/bot.js",
+    "compile": "tsc -p tsconfig.json -w"
+  },
+  "author": "YeffyCodeGit",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.2"
+  }
+}
